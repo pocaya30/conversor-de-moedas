@@ -9,10 +9,12 @@
 body {
     background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
     min-height: 100vh;
+    text-align: center;
 }
 
 .logo {
-    width: 300px;
+    display: relative;
+    width: 230px;
     display: block;
     margin: -2px auto;
     margin-top: 5%;
@@ -20,6 +22,7 @@ body {
 }
 
 main {
+    display: inline-block;
     width: 375px;
     border-radius: 20px;
     background: #F4F4F4;
